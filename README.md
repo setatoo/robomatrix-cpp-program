@@ -1,4 +1,4 @@
-# Robomatrix C++ Engineering Bootcamp
+# RoboMatrix C++ Engineering Bootcamp
 
 A structured, project-based C++ training program focused on problem solving, engineering thinking, and real-world development practices.
 
@@ -81,9 +81,9 @@ Students are expected to maintain clean repositories and push their work regular
 
 ---
 
-## 🏫 About Robomatrix
+## 🏫 About RoboMatrix
 
-Robomatrix is a programming and robotics training institute focused on structured, project-based technical education.  
+RoboMatrix is a programming and robotics training institute focused on structured, project-based technical education.  
 Our programs are designed to help students build strong engineering foundations through practical implementation, real development workflows, and guided mentorship.
 
 We emphasize hands-on learning, problem solving, and skill development aligned with modern technical and competitive environments.
@@ -93,6 +93,6 @@ We emphasize hands-on learning, problem solving, and skill development aligned w
 
 ## 📜 License
 
-This repository is intended for educational use within the Robomatrix training program.
+This repository is intended for educational use within the RoboMatrix training program.
 
 
