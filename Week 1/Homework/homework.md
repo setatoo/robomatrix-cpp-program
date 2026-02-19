@@ -57,7 +57,7 @@ Exit
 
 ## 📤 نحوه تحویل
 
-- فایل را با نام `calculator.cpp` ذخیره کنید.
+- فایل را با نام `homework01.cpp` ذخیره کنید.
 - پروژه را در GitHub خود آپلود کنید.
 - سورس کد باید کامپایل شود و بدون خطا اجرا شود.
 
@@ -124,6 +124,6 @@ Exit
 
 ## 📤 Submission
 
-- Save the file as `calculator.cpp`
+- Save the file as `homework01.cpp`
 - Upload it to your GitHub repository.
 - The program must compile and run without errors.
