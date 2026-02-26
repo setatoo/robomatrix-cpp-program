@@ -1,77 +1,82 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    bool ghofl=false;
-    int tedad=0;
-    int tedadhosh=0;
-    int tedadbohran=0;
-    int max=0;
-    int ramz=2024;
-    int a,b,c;
-    while(ghofl == false && tedad<4)
-            {
-                if(tedad>3)
-                {
-                    return 0;
-                }
-                cout<<"code ro bede:\n ";
-                cin >>a;
-                if(a==ramz)
-                {
-                    ghofl= true;
-                    cout<<"code dorost!";
-                }
-                else
-                {
-                    cout<<"code nadorost!\n dobare vared konid \n :";
-                }
-                tedad++;
-            }
-    while(c!=4)
+    bool ghofl = false;
+    int tedad = 0;
+    int tedadhosh = 0;
+    int tedadbohran = 0;
+    int maxBP = 0;
+    int ramz = 2024;
+    int a, b, c = 0;
+
+    // بخش رمز
+    while(!ghofl && tedad < 4)
     {
-        cout << "add morede nazar ro vared konid : \n 2-sabt sorat jadid \n 3-namayesh gozarash \n 4- Exit " << std::endl;
-        cin>>c;
-        if(c==2)
-            while(tedadhosh<4)
-            {
-                if(tedadhosh>3)
-                {
-                    return 0;
-                }
-                cout<<" ye sorat bede:\n";
-                cin>>b;
-                if (b>max)
-                {
-                    max=b;
-                }
-                if(b>120)
-                {
-                    cout<<"hoshdar khatar!\n";
-                    tedadhosh++;
-                }
-                else if(b>200)
-                {
-                    cout<<"vaziat bohrani\n";
-                    tedadbohran++;
-                }
-        if(c==3)
+        cout << "code ro bede:\n";
+        cin >> a;
+
+        if(a == ramz)
         {
-            cout<<max<<"\n"<<tedadhosh<<"\n"<<tedadbohran;
+            ghofl = true;
+            cout << "code dorost!\n";
         }
-        if(c==4)
+        else
+        {
+            cout << "code nadorost!\n";
+        }
+
+        tedad++;
+    }
+
+    if(!ghofl)
+        return 0;
+
+    // منو
+    while(c != 4)
+    {
+        cout << "add morede nazar ro vared konid:\n";
+        cout << "2- sabt sorat jadid\n";
+        cout << "3- namayesh gozarash\n";
+        cout << "4- Exit\n";
+        cin >> c;
+
+        if(c == 2)
+        {
+            if(tedadhosh >= 4)
+                return 0;
+
+            cout << "ye sorat bede:\n";
+            cin >> b;
+
+            if(b > maxBP)
+                maxBP = b;
+
+            if(b > 200)
+            {
+                cout << "vaziat bohrani!\n";
+                tedadbohran++;
+            }
+            else if(b > 120)
+            {
+                cout << "hoshdar khatar!\n";
+                tedadhosh++;
+            }
+        }
+
+        else if(c == 3)
+        {
+            cout << "Max: " << maxBP << endl;
+            cout << "Hoshdar: " << tedadhosh << endl;
+            cout << "Bohran: " << tedadbohran << endl;
+        }
+
+        else if(c == 4)
         {
             return 0;
         }
-    }    
-}
-return 0;
+    }
+
+    return 0;
 }
