@@ -1,0 +1,84 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int pass;
+    int tedad=0;
+    bool golabi=false;
+    int choice; 
+    int sorat;
+    int tedadhoshdar=0;
+    int max=0 ;
+    int a=0;
+     while (golabi==false)
+     {
+         if (tedad>2)
+         {
+             return 0;
+         }
+         cout<<"ramz ra vared konid\n";
+         cin>> pass;
+         if (pass==2024)
+         {
+             golabi= true;
+         }
+         else 
+         {
+             cout <<"ramz eshte bah ast\n";
+             tedad ++; 
+         }
+     }
+     if (pass ==2024)
+      {
+          
+      while (choice !=3)
+       
+            
+            {
+                  if (tedadhoshdar>2)
+                  {
+                      return 0;
+                  }
+                cout<<"entekhab konid\n 1=sabt sorat jadid \n 2=namayesh gozaresh \n 3=exit \n";
+             cin>> choice ;
+            
+      
+           if (choice==1)
+         {
+             cout<<"sorat ra vared konid\n";
+             cin>>sorat ;
+             
+         if (sorat > max)
+         {
+             max=sorat;
+         }
+                 if (sorat>200)
+                 {
+                     cout << "vaziat bohrani\n";
+                     a++;
+                 }
+                 else if (sorat>120)
+                 {
+                     cout <<"hoshdar e khatar\n";
+                     
+                     tedadhoshdar++;
+                     
+                 }
+                 
+         }
+         if (choice==2)
+         {
+cout<<"bishtarin sorat";
+cout<< max << "\n" ;
+cout<< "tedad hoshdar khatar";
+cout << tedadhoshdar<<"\n";
+cout<< "tedad vaz bohrani";
+cout<< a<<"\n";
+             
+         }
+         
+            }
+
+}
+return 0 ;
+}
