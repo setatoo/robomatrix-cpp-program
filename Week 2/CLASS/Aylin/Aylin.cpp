@@ -4,9 +4,9 @@ int main()
 {
     bool ghofl=false;
     int tedad=0;
-    int tedadhosh=0
-    int tedadbohran=0
-    int max=0
+    int tedadhosh=0;
+    int tedadbohran=0;
+    int max=0;
     int ramz=2024;
     int a,b,c;
     cout << "add morede nazar ro vared konid : \n 1-vorud code dastresi \n 2-sabt sorat jadid \n 3-namayesh gozarash \n 4- Exit " << std::endl;
